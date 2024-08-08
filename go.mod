@@ -1,4 +1,4 @@
-module github.com/Chigvero/Messageio
+module github.com/m1kr0b/message-processing
 
 go 1.22.3
 

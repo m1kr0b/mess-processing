@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/Chigvero/Messageio/internal/kafka"
-	"github.com/Chigvero/Messageio/internal/repository"
-	Intern "github.com/Chigvero/Messageio/model/message"
+	"github.com/m1kr0b/message-processing/internal/kafka"
+	"github.com/m1kr0b/message-processing/internal/repository"
+	Intern "github.com/m1kr0b/message-processing/model/message"
 )
 
 type Message interface {

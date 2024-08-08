@@ -7,11 +7,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/Chigvero/Messageio/internal/handler"
-	"github.com/Chigvero/Messageio/internal/kafka"
-	"github.com/Chigvero/Messageio/internal/repository"
-	"github.com/Chigvero/Messageio/internal/service"
 	_ "github.com/lib/pq"
+	"github.com/m1kr0b/message-processing/internal/handler"
+	"github.com/m1kr0b/message-processing/internal/kafka"
+	"github.com/m1kr0b/message-processing/internal/repository"
+	"github.com/m1kr0b/message-processing/internal/service"
 	"github.com/spf13/viper"
 )
 

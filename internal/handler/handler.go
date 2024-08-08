@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/Chigvero/Messageio/internal/service"
 	"github.com/gin-gonic/gin"
+	"github.com/m1kr0b/message-processing/internal/service"
 )
 
 type Handler struct {

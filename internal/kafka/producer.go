@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	Message "github.com/Chigvero/Messageio/model/message"
 	"github.com/IBM/sarama"
+	Message "github.com/m1kr0b/message-processing/model/message"
 )
 
 type Producer struct {

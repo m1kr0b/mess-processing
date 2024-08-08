@@ -3,8 +3,8 @@ package repository
 import (
 	"fmt"
 
-	Intern "github.com/Chigvero/Messageio/model/message"
 	"github.com/jmoiron/sqlx"
+	Intern "github.com/m1kr0b/message-processing/model/message"
 )
 
 type MessagePostgresDB struct {

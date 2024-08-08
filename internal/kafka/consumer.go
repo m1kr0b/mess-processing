@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Chigvero/Messageio/internal/repository"
-	Message "github.com/Chigvero/Messageio/model/message"
+	"github.com/m1kr0b/message-processing/internal/repository"
+	Message "github.com/m1kr0b/message-processing/model/message"
 	"github.com/IBM/sarama"
 )
 
